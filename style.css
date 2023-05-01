@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--body_colour);
+}
+
+.head {
+    background-color: var(--bg_colour);
+    height: 130px;
+}
+
+.log {
+    display: flex;
+    flex-direction: row;
+    color: var(--text);
+}
+
+.log img {
+    height: 30px;
+    width: 30px;
+    padding-right: 40px;
+}
+
+.log h3 {
+    font-size: 30px;
+    margin: auto;
+}
+
+.menu {
+    width: 50%;
+    margin: auto;
+    padding-top: 40px;
+   
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu_items {
+    list-style: none;
+    margin: auto;
+    color: var(--text);
+}
+
+.body {
+    width: 300px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.img {
+    height: 300px;
+    width: 300px;
+    margin: auto;
+}
+
+.but {
+    background-color: black;
+    height: 50px;
+    width: 100px;
+    font-size: 18px;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 45%;
+    margin-top: -100px;
+    margin-left: 100px;
+}
+
+.footter {
+    height: 150px;
+    width: 100%;
+    background-color: var(--bg_colour);
+    text-align: center;
+}
+
+.footter p {
+    padding-top: 60px;
+    color: var(--text);
+}
+
+:root {
+    --body_colour : pink;
+    --bg_colour : lightpink;
+    --text : black;
+}
+
+:root[theme='dark'] {
+    --body_colour : #312E33;
+    --bg_colour : #292C31;
+    --text : white;
+}
